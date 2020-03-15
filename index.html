@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cool Bulma Checkboxes</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="demoDist/demo.css">
-    <link rel="stylesheet" href="dist/css/bulma-radio-checkbox.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+        integrity="sha256-D9M5yrVDqFlla7nlELDaYZIpXfFWDytQtiV+TaH6F1I=" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="demoDist/demo.css"> -->
+    <link rel="stylesheet" href="dist/css/bulma-radio-checkbox.css?0">
 </head>
 
 <body>
@@ -18,19 +19,21 @@
                     <div class="column">
                         <h1 class="title">Cool Checboxes for <a href="http://bulma.io" target="_blank">Bulma.io</a></h1>
                         <h2 class="subtitle">Change the uncool checkboxes into something cooler.</h2>
-                        <a class="button is-info is-inverted" href="https://github.com/hunzaboy/Cool-Checkboxes-for-Bulma.io">
-                    <span class="icon">
-                        <i class="fa fa-github"></i>
-                    </span>
-                    <span>View on Github</span>
-                </a>
+                        <a class="button is-info is-inverted"
+                            href="https://github.com/hunzaboy/Cool-Checkboxes-for-Bulma.io">
+                            <span class="icon">
+                                <i class="fa fa-github"></i>
+                            </span>
+                            <span>View on Github</span>
+                        </a>
                     </div>
                     <div class="column">
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- Bulma Ad -->
-                        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6403491308890107" data-ad-slot="1627278884" data-ad-format="auto"></ins>
+                        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6403491308890107"
+                            data-ad-slot="1627278884" data-ad-format="auto"></ins>
                         <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
+                            (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
                     </div>
                 </div>
@@ -40,8 +43,11 @@
     <section class="section hero is-small">
         <div class="container">
             <h3 class="title is-3"><code>npm install cool-checkboxes-for-bulma.io</code></h3>
-            <h3 class="title is-4">Supports bulma modifier classes. e.g <code>is-primary</code>, <code>is-success</code>, <code>is-warning</code>, <code>is-info</code>, <code>is-danger</code>, <code>is-dark</code>, <code>is-black</code></h3>
-            <h3 class="title is-4">Also supports <code>is-circular</code> to make the checkboxes round and <code>is-inline</code> to inline checkboxes.</h3>
+            <h3 class="title is-4">Supports bulma modifier classes. e.g <code>is-primary</code>,
+                <code>is-success</code>, <code>is-warning</code>, <code>is-info</code>, <code>is-danger</code>,
+                <code>is-dark</code>, <code>is-black</code></h3>
+            <h3 class="title is-4">Also supports <code>is-circular</code> to make the checkboxes round and
+                <code>is-inline</code> to inline checkboxes.</h3>
         </div>
     </section>
     <section class="section hero is-small is-light">
@@ -51,8 +57,8 @@
                     <p class="title is-4">Cool Checkboxes</p>
                     <div class="field">
                         <div class="b-checkbox">
-                            <input id="checkbox1" class="styled" checked type="checkbox">
-                            <label for="checkbox1">
+                            <input id="checkbox1" class="b-checkbox-input" checked type="checkbox">
+                            <label for="checkbox1" class="b-checkbox-label">
                                 Is Default
                             </label>
                         </div>
@@ -60,8 +66,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-primary">
-                                <input id="checkbox2" class="styled" checked type="checkbox">
-                                <label for="checkbox2">
+                                <input id="checkbox2" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox2" class="b-checkbox-label">
                                     Is Primary
                                 </label>
                             </div>
@@ -70,8 +76,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-success">
-                                <input id="checkbox3" class="styled" checked type="checkbox">
-                                <label for="checkbox3">
+                                <input id="checkbox3" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox3" class="b-checkbox-label">
                                     Is Success
                                 </label>
                             </div>
@@ -80,8 +86,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-danger">
-                                <input id="checkbox4" class="styled" checked type="checkbox">
-                                <label for="checkbox4">
+                                <input id="checkbox4" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox4" class="b-checkbox-label">
                                     Is Danger
                                 </label>
                             </div>
@@ -90,8 +96,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-info">
-                                <input id="checkbox5" class="styled" checked type="checkbox">
-                                <label for="checkbox5">
+                                <input id="checkbox5" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox5" class="b-checkbox-label">
                                     Is Info
                                 </label>
                             </div>
@@ -99,9 +105,19 @@
                     </div>
                     <div class="field">
                         <p class="control">
+                            <div class="b-checkbox is-link">
+                                <input id="checkbox9" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox9" class="b-checkbox-label">
+                                    Is Link
+                                </label>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
                             <div class="b-checkbox is-warning">
-                                <input id="checkbox6" class="styled" checked type="checkbox">
-                                <label for="checkbox6">
+                                <input id="checkbox6" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox6" class="b-checkbox-label">
                                     Is Warning
                                 </label>
                             </div>
@@ -110,8 +126,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-dark">
-                                <input id="checkbox7" class="styled" checked type="checkbox">
-                                <label for="checkbox7">
+                                <input id="checkbox7" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox7" class="b-checkbox-label">
                                     Is Dark
                                 </label>
                             </div>
@@ -120,20 +136,114 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-black">
-                                <input id="checkbox8" class="styled" checked type="checkbox">
-                                <label for="checkbox8">
+                                <input id="checkbox8" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox8" class="b-checkbox-label">
                                     Is Black
                                 </label>
                             </div>
                         </p>
                     </div>
                 </div>
+
+                <div class="column">
+                    <p class="title is-4">Cool Checkboxes <br />(label position right)</p>
+                    <div class="field">
+                        <div class="b-checkbox b-checkbox-right">
+                            <input id="checkbox1_r" class="b-checkbox-input" checked type="checkbox">
+                            <label for="checkbox1_r" class="b-checkbox-label">
+                                Is Default
+                            </label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                            <div class="b-checkbox b-checkbox-right is-primary">
+                                <input id="checkbox2_r" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox2_r" class="b-checkbox-label">
+                                    Is Primary
+                                </label>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                            <div class="b-checkbox b-checkbox-right is-success">
+                                <input id="checkbox3_r" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox3_r" class="b-checkbox-label">
+                                    Is Success
+                                </label>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                            <div class="b-checkbox b-checkbox-right is-danger">
+                                <input id="checkbox4_r" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox4_r" class="b-checkbox-label">
+                                    Is Danger
+                                </label>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                            <div class="b-checkbox b-checkbox-right is-info">
+                                <input id="checkbox5_r" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox5_r" class="b-checkbox-label">
+                                    Is Info
+                                </label>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                            <div class="b-checkbox b-checkbox-right is-link">
+                                <input id="checkbox9_r" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox9_r" class="b-checkbox-label">
+                                    Is Link
+                                </label>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                            <div class="b-checkbox b-checkbox-right is-warning">
+                                <input id="checkbox6_r" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox6_r" class="b-checkbox-label">
+                                    Is Warning
+                                </label>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                            <div class="b-checkbox b-checkbox-right is-dark">
+                                <input id="checkbox7_r" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox7_r" class="b-checkbox-label">
+                                    Is Dark
+                                </label>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                            <div class="b-checkbox b-checkbox-right is-black">
+                                <input id="checkbox8_r" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkbox8_r" class="b-checkbox-label">
+                                    Is Black
+                                </label>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+
+
                 <div class="column">
                     <p class="title is-4">Cool Circular Checkboxes</p>
                     <div class="field">
                         <div class="b-checkbox is-circular">
-                            <input id="ccheckbox1" class="styled" checked type="checkbox">
-                            <label for="ccheckbox1">
+                            <input id="ccheckbox1" class="b-checkbox-input" checked type="checkbox">
+                            <label for="ccheckbox1" class="b-checkbox-label">
                                 Is Default
                             </label>
                         </div>
@@ -141,8 +251,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-circular is-primary">
-                                <input id="ccheckbox2" class="styled" checked type="checkbox">
-                                <label for="ccheckbox2">
+                                <input id="ccheckbox2" class="b-checkbox-input" checked type="checkbox">
+                                <label for="ccheckbox2" class="b-checkbox-label">
                                     Is Primary
                                 </label>
                             </div>
@@ -151,8 +261,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-circular is-success">
-                                <input id="ccheckbox3" class="styled" checked type="checkbox">
-                                <label for="ccheckbox3">
+                                <input id="ccheckbox3" class="b-checkbox-input" checked type="checkbox">
+                                <label for="ccheckbox3" class="b-checkbox-label">
                                     Is Success
                                 </label>
                             </div>
@@ -161,8 +271,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-circular is-danger">
-                                <input id="ccheckbox4" class="styled" checked type="checkbox">
-                                <label for="ccheckbox4">
+                                <input id="ccheckbox4" class="b-checkbox-input" checked type="checkbox">
+                                <label for="ccheckbox4" class="b-checkbox-label">
                                     Is Danger
                                 </label>
                             </div>
@@ -171,8 +281,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-circular is-info">
-                                <input id="ccheckbox5" class="styled" checked type="checkbox">
-                                <label for="ccheckbox5">
+                                <input id="ccheckbox5" class="b-checkbox-input" checked type="checkbox">
+                                <label for="ccheckbox5" class="b-checkbox-label">
                                     Is Info
                                 </label>
                             </div>
@@ -180,9 +290,19 @@
                     </div>
                     <div class="field">
                         <p class="control">
+                            <div class="b-checkbox is-circular is-link">
+                                <input id="ccheckbox9" class="b-checkbox-input" checked type="checkbox">
+                                <label for="ccheckbox9" class="b-checkbox-label">
+                                    Is Link
+                                </label>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
                             <div class="b-checkbox is-circular is-warning">
-                                <input id="ccheckbox6" class="styled" checked type="checkbox">
-                                <label for="ccheckbox6">
+                                <input id="ccheckbox6" class="b-checkbox-input" checked type="checkbox">
+                                <label for="ccheckbox6" class="b-checkbox-label">
                                     Is Warning
                                 </label>
                             </div>
@@ -191,8 +311,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-circular is-dark">
-                                <input id="ccheckbox7" class="styled" checked type="checkbox">
-                                <label for="ccheckbox7">
+                                <input id="ccheckbox7" class="b-checkbox-input" checked type="checkbox">
+                                <label for="ccheckbox7" class="b-checkbox-label">
                                     Is Dark
                                 </label>
                             </div>
@@ -201,8 +321,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-circular is-black">
-                                <input id="ccheckbox8" class="styled" checked type="checkbox">
-                                <label for="ccheckbox8">
+                                <input id="ccheckbox8" class="b-checkbox-input" checked type="checkbox">
+                                <label for="ccheckbox8" class="b-checkbox-label">
                                     Is Black
                                 </label>
                             </div>
@@ -215,14 +335,14 @@
                     <p class="title is-4">Inline Cool Checkboxes</p>
                     <div class="field">
                         <div class="b-checkbox is-primary is-inline">
-                            <input id="checkbox1-inline" class="styled" type="checkbox">
-                            <label for="checkbox1-inline">
+                            <input id="checkbox1-inline" class="b-checkbox-input" type="checkbox">
+                            <label for="checkbox1-inline" class="b-checkbox-label">
                                 Is Default
                             </label>
                         </div>
                         <div class="b-checkbox is-success is-inline">
-                            <input id="checkbox2-inline" class="styled" checked type="checkbox">
-                            <label for="checkbox2-inline">
+                            <input id="checkbox2-inline" class="b-checkbox-input" checked type="checkbox">
+                            <label for="checkbox2-inline" class="b-checkbox-label">
                                 Is Default
                             </label>
                         </div>
@@ -239,8 +359,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-info">
-                                <input id="checkboxsample1" class="styled" checked type="checkbox">
-                                <label for="checkboxsample1">
+                                <input id="checkboxsample1" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkboxsample1" class="b-checkbox-label">
                                     Is Primary Cool Checkbox
                                 </label>
                             </div>
@@ -249,8 +369,8 @@
                     <pre><code>&lt;div class="field"&gt;
     &lt;p class="control"&gt;
         &lt;div class="b-checkbox is-warning"&gt;
-            &lt;input id="checkbox" class="styled" checked type="checkbox"&gt;
-            &lt;label for="checkbox"&gt;
+            &lt;input id="checkbox" class="b-checkbox-input" checked type="checkbox"&gt;
+            &lt;label for="checkbox" class="b-checkbox-label"&gt;
                 Is Warning
             &lt;/label&gt;
         &lt;/div&gt;
@@ -261,8 +381,8 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-danger is-circular">
-                                <input id="checkboxsample" class="styled" checked type="checkbox">
-                                <label for="checkboxsample">
+                                <input id="checkboxsample" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkboxsample" class="b-checkbox-label">
                                     Is Circular Danger Checkbox
                                 </label>
                             </div>
@@ -271,8 +391,8 @@
                     <pre><code>&lt;div class="field"&gt;
     &lt;p class="control"&gt;
         &lt;div class="b-checkbox is-warning is-circular"&gt;
-            &lt;input id="checkbox" class="styled" checked type="checkbox"&gt;
-            &lt;label for="checkbox"&gt;
+            &lt;input id="checkbox" class="b-checkbox-input" checked type="checkbox"&gt;
+            &lt;label for="checkbox" class="b-checkbox-label"&gt;
                 Is Warning
             &lt;/label&gt;
         &lt;/div&gt;
@@ -285,14 +405,14 @@
                     <div class="field">
                         <p class="control">
                             <div class="b-checkbox is-info is-inline">
-                                <input id="checkboxsample1-inline" class="styled" type="checkbox">
-                                <label for="checkboxsample1-inline">
+                                <input id="checkboxsample1-inline" class="b-checkbox-input" type="checkbox">
+                                <label for="checkboxsample1-inline" class="b-checkbox-label">
                                     Is Primary Inline Cool Checkbox
                                 </label>
                             </div>
                             <div class="b-checkbox is-danger is-inline">
-                                <input id="checkboxsample2-inline" class="styled" checked type="checkbox">
-                                <label for="checkboxsample2-inline">
+                                <input id="checkboxsample2-inline" class="b-checkbox-input" checked type="checkbox">
+                                <label for="checkboxsample2-inline" class="b-checkbox-label">
                                     Is Danger Inline Cool Checkbox
                                 </label>
                             </div>
@@ -301,14 +421,14 @@
                     <pre><code>&lt;div class="field"&gt;
     &lt;p class="control"&gt;
         &lt;div class="b-checkbox is-warning is-inline"&gt;
-            &lt;input id="checkbox" class="styled" checked type="checkbox"&gt;
-            &lt;label for="checkbox"&gt;
+            &lt;input id="checkbox" class="b-checkbox-input" checked type="checkbox"&gt;
+            &lt;label for="checkbox" class="b-checkbox-label"&gt;
                 Is Warning
             &lt;/label&gt;
         &lt;/div&gt;
         &lt;div class="b-checkbox is-danger is-inline"&gt;
-            &lt;input id="checkbox" class="styled" checked type="checkbox"&gt;
-            &lt;label for="checkbox"&gt;
+            &lt;input id="checkbox" class="b-checkbox-input" checked type="checkbox"&gt;
+            &lt;label for="checkbox" class="b-checkbox-label"&gt;
                 Is Warning
             &lt;/label&gt;
         &lt;/div&gt;
@@ -318,30 +438,31 @@
             </div>
         </div>
     </section>
-<section>
-    <div class="container">
-        <div class="columns">
-            <div class="column">
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Bulma Ad -->
-                        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6403491308890107" data-ad-slot="1627278884" data-ad-format="auto"></ins>
-                        <script>
+    <section>
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Bulma Ad -->
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6403491308890107"
+                        data-ad-slot="1627278884" data-ad-format="auto"></ins>
+                    <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                    </div>
+                    </script>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-105402107-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105402107-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-105402107-3');
-</script>
+        gtag('config', 'UA-105402107-3');
+    </script>
 
 </body>
 
